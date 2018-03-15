@@ -14,6 +14,9 @@ class Solution:
     @return: if string A contains all of the characters in B return true else return false
     """
     def compareStrings(self, A, B):
+        if len(A) < len(B):
+            return False
+        
         import collections
         letters = collections.Counter(A)
         
