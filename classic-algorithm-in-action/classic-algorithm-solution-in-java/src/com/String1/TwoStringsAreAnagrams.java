@@ -23,12 +23,29 @@ public class TwoStringsAreAnagrams {
     }
 	// 使用 hashmap 的方法对于比较两个字符串是否互为变位词十分有效
 	// 但是在比较多个字符串时，使用 hashmap 的方法复杂度则较高。
-	// 可以使用排序字符串，java中排序字符比较麻烦
+	// 排序字符串
+	public boolean anagram2(String s, String t) {
+        if (s == null || t == null) return false;
+        if (s.length() != t.length()) return false;
+
+        char[] sChars = s.toCharArray();
+        char[] tChars = t.toCharArray();
+        Arrays.sort(sChars);
+        Arrays.sort(tChars);
+
+        for (int i = 0; i != s.length(); i++) {
+            if (sChars[i] != tChars[i]) 
+            	return false;
+        }
+
+        return true;
+    }
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		TwoStringsAreAnagrams two = new TwoStringsAreAnagrams();
 		System.out.println(two.anagram("abcd", "acbd"));
+		System.out.println(two.anagram2("abcd", "acbd"));
 	}
 
 }
