@@ -28,6 +28,21 @@ class Solution:
             if not visited[index1] and hasAnagrams:
                 result.append(s1)
         return result
+    
+    # @param strs: A list of strings
+    # @return: A list of strings
+    def anagrams2(self, strs):
+        strDict={}
+        result=[]
+        for string in strs:
+            if  "".join(sorted(string)) not in strDict.keys():
+                strDict["".join(sorted(string))] = 1
+            else: 
+                strDict["".join(sorted(string))] += 1
+        for string in strs:
+            if strDict["".join(sorted(string))] >1:
+                result.append(string)
+        return result
         
     def isAnagrams(self, str1, str2):
         if  sorted (str1) == sorted(str2):
