@@ -7,10 +7,9 @@ public class TwoStringsAreAnagrams {
 			return false;
 		}
 		int[] flag = new int[256];
-		int length = s.length();
 		char[] charArr1 = s.toCharArray();
 		char[] charArr2 = t.toCharArray();
-		for (int i = 0; i < length; i++) {
+		for (int i = 0; i < s.length(); i++) {
 			flag[charArr1[i]]++;
 			flag[charArr2[i]]--;
 		}
