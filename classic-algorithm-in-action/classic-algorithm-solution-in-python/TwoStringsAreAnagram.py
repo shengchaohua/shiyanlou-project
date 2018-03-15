@@ -17,9 +17,13 @@ class Solution:
         import collections
         return collections.Counter(s) == collections.Counter(t)
     
+    def anagram2(selt, s, t):
+        return sorted(s) == sorted(t)
+    
 def main():
     s = Solution()
     print(s.anagram('abcd', 'acbd'))
+    print(s.anagram2('abcd', 'acbd'))
 
 if __name__ == '__main__':
     main()
