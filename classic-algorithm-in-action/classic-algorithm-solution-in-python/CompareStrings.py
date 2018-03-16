@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 15 20:45:38 2018
 
-@problem: liintcode No.55 Compare Strings
+@problem: lintcode No.55 Compare Strings
 
 @author: sheng
 """
