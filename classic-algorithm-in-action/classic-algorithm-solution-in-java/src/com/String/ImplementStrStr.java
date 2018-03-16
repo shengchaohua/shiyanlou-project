@@ -1,4 +1,4 @@
-package com.String1;
+package com.String;
 
 /**
  * problem: leetcode No.28 Implement strStr()
