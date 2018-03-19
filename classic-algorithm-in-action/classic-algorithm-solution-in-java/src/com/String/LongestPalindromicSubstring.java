@@ -1,7 +1,5 @@
 package com.String;
 
-import javax.print.DocFlavor.STRING;
-
 public class LongestPalindromicSubstring {
 	/*
      * @param s: input string
