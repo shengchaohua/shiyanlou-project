@@ -29,8 +29,6 @@ class Solution:
                 result.append(s1)
         return result
     
-    # @param strs: A list of strings
-    # @return: A list of strings
     def anagrams2(self, strs):
         strDict={}
         result=[]
