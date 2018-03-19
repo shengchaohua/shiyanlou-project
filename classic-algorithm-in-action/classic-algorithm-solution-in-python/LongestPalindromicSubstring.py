@@ -15,8 +15,7 @@ class Solution:
     def longestPalindrome(self, s): 
         # 最简单的方案，穷举所有可能的子串，判断子串是否为回文，使用一变量记录最大回文长度，
         # 若新的回文超过之前的最大回文长度则更新标记变量并记录当前回文的起止索引，最后返回最长回文子串
-        # This solution is right. Lintcode AC while leetcode NOT.
-        # O(n^3)
+        # O(n^3) TIME LIMIT EXCEEDED
         if not s:
             return s
 
@@ -38,7 +37,7 @@ class Solution:
     def longestPalindromeBetter(self, s):
         # 假定扫描的每个字母是回文的中间位置（需要处理奇偶两种情况）
         # 从该位置向两头搜索寻找最大回文长度
-        # O(n^2)
+        # O(n^2) AC
         if not s:
             return s
         
