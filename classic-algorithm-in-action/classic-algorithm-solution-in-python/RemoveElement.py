@@ -2,7 +2,7 @@
 """
 Created on Tue Mar 20 08:41:18 2018
 
-@problem: 
+@problem: leetcode 27 & lintcode 172 Remove Element
 
 @author: sheng
 """
