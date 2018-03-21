@@ -24,7 +24,7 @@ class Solution:
                 continue
             else:
                 nums[count] = nums[i]
-                count += 2
+                count += 1
         return count
 
     
