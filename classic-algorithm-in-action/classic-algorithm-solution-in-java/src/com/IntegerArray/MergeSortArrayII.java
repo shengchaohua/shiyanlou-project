@@ -12,20 +12,22 @@ public class MergeSortArrayII {
     	int bLen = B.length;
         int aInd = 0;
 		int bInd = 0;
+		
 		int[] res = new int[aLen + bLen];
-		int index = 0;
+		int ind = 0;
+		
 		while (aInd < aLen && bInd < bLen) {
 			if (A[aInd] <= B[bInd]) {
-				res[index++] = A[aInd++];
+				res[ind++] = A[aInd++];
 			} else {
-				res[index++] = B[bInd++];
+				res[ind++] = B[bInd++];
 			}
 		}
 		while (aInd < aLen) {
-			res[index++] = A[aInd++];
+			res[ind++] = A[aInd++];
 		}
 		while (bInd < bLen) {
-			res[index++] = B[bInd++];
+			res[ind++] = B[bInd++];
 		}
 		return res;
     }

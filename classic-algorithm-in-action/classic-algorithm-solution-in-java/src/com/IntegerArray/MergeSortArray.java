@@ -1,6 +1,6 @@
 package com.IntegerArray;
 
-// leetcode No.88 & lintcode No.6 Merge Sort Array
+// leetcode No.88 & lintcode No.64 Merge Sort Array
 public class MergeSortArray {
 	/**
 	 * @param nums1 sorted integer array whose length is m+n
