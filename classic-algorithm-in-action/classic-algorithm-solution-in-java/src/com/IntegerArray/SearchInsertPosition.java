@@ -57,10 +57,10 @@ public class SearchInsertPosition {
 		System.out.println(s.searchInsert(nums, 2));
 		System.out.println(s.searchInsert(nums, 7));
 		System.out.println(s.searchInsert(nums, 0));
-//		System.out.println(s.searchInsert2(nums, 5));
-//		System.out.println(s.searchInsert2(nums, 2));
-//		System.out.println(s.searchInsert2(nums, 7));
-//		System.out.println(s.searchInsert2(nums, 0));
+		System.out.println(s.searchInsert2(nums, 5));
+		System.out.println(s.searchInsert2(nums, 2));
+		System.out.println(s.searchInsert2(nums, 7));
+		System.out.println(s.searchInsert2(nums, 0));
 	}
 
 }
