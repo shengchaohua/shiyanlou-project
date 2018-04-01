@@ -1,5 +1,6 @@
 package com.IntegerArray;
 
+// lintcode No.14 First Position of Target
 public class FirstPositionOfTarget {
 	/**
      * @param nums: The integer array.
