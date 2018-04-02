@@ -1,4 +1,4 @@
-package com.IntegerArray;
+package com.BinarySearch;
 
 // lintcode No.14 First Position of Target
 public class FirstPositionOfTarget {

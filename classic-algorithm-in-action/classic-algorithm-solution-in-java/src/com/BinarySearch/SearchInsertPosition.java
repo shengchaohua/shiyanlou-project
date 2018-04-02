@@ -1,4 +1,4 @@
-package com.IntegerArray;
+package com.BinarySearch;
 
 // lintcode No.60 Search Insert Position
 public class SearchInsertPosition {
@@ -10,7 +10,7 @@ public class SearchInsertPosition {
     public int searchInsert(int[] A, int target) {
         // 理解：寻找first index that value is >= target
         if (A == null || A.length == 0) {
-        	return -1; // 在lintcode需改为0，但实际应该是-1
+        	return 0; 
         }
         
         int start = -1;
