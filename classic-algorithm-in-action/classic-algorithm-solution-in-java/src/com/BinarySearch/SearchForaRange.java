@@ -8,7 +8,7 @@ public class SearchForaRange {
      * @return: a list of length 2, [index1, index2]
      */
 	public int[] searchRange(int[] nums, int target) {
-        // FirstPositionOfTarget + 
+        // FirstPositionOfTarget + SearchInsertPosition
         int [] res = new int[2];
         if (nums == null || nums.length == 0) {
         	return new int[]{-1, -1};
