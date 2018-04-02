@@ -8,7 +8,7 @@ public class SearchInsertPosition {
      * @return: An integer
      */
     public int searchInsert(int[] A, int target) {
-        // 理解：寻找first index that value is >= target
+        // 理解：寻找the first index that value is >= target
         if (A == null || A.length == 0) {
         	return 0;
         }
@@ -29,7 +29,7 @@ public class SearchInsertPosition {
     }
     
     public int searchInsert2(int[] A, int target) {
-        // 理解：寻找first index that value is <= target
+        // 理解：寻找the last index that value is <= target
         if (A == null || A.length == 0) {
         	return -1; 
         }
