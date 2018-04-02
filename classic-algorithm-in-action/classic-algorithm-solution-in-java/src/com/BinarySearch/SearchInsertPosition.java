@@ -10,7 +10,7 @@ public class SearchInsertPosition {
     public int searchInsert(int[] A, int target) {
         // Àí½â£ºÑ°ÕÒfirst index that value is >= target
         if (A == null || A.length == 0) {
-        	return 0; 
+        	return 0;
         }
         
         int start = -1;
