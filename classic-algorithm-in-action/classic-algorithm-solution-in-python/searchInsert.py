@@ -46,7 +46,7 @@ class Solution:
 def main():
     s = Solution()
     nums = [1, 2, 3, 5, 5, 6]
-    ts = [0, 1, 2, 5, 7]
+    ts = [0, 2, 4, 5, 7]
     for t in ts:
         print(s.searchInsert1(nums, t), end = ' ')
     print()
