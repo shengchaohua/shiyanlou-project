@@ -13,28 +13,15 @@ class Solution:
         @param: A: An integers array.
         @return: return any of peek positions.
         """
-        # O(n) 93% Time Limit Exceeded
-        aLen = len(A)
-        
-        if aLen == 0:
-            return -1
-		    
-        if aLen == 1:
-            return 0
-        
-        if aLen == 2:
-            return 0 if A[0] > A[1] else 1
-        
-        for i in range(1, aLen):
-            if (A[i] > A[i-1]):       
-            	   continue
-            else:
+        # O(n) leetcode AC while lintcode 93% TLE     
+        for i in range(1, len(A)):
+            if (A[i] < A[i-1]):       
             	   return i-1
         
-        return aLen-1
+        return len(A)-1
     
     def findPeakRight(self, A):
-        # O(logn) AC!
+        # O(logn) both leetcode and lintcode AC!
         if not A:
             return -1
         
