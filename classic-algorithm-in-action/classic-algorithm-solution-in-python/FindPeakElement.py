@@ -2,7 +2,7 @@
 """
 Created on Tue Apr  3 08:36:26 2018
 
-@problem: lintcode 75. Find Peak Element
+@problem: leetcode 162. & lintcode 75. Find Peak Element
 
 @author: sheng
 """
