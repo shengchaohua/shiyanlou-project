@@ -1,5 +1,6 @@
 package com.BitManipulation;
 
+// problem: lintcode 142. O(1) Check Power of 2
 public class CheckPowerOf2 {
 	/*
      * @param n: An integer
