@@ -1,5 +1,6 @@
 package com.BitManipulation;
 
+// problem: lintcode 181. Flip Bits
 public class FlipBits {
 	/**
      * @param a: An integer
