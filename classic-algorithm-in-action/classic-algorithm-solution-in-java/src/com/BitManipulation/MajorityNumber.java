@@ -8,18 +8,19 @@ public class MajorityNumber {
 		// leetcode AC!
 		int count = 0;
 		int res = 0;
-		for (int i = 0; i < nums.length; i++) {
+		for (int n: nums) {
 			if (count == 0) {
-				res = nums[i];
+				res = n;
 				count = 1;
 			} else {
-				if (nums[i] == res) {
+				if (n == res) {
 					count++;
 				} else {
 					count--;
 				}
 			}
 		}
+		
 		return res;
 	}
 	
@@ -29,20 +30,21 @@ public class MajorityNumber {
      */
     public int majorityNumber(ArrayList<Integer> nums) {
         // lintcode AC!
-        int count = 0;
+    	int count = 0;
 		int res = 0;
-		for (int i = 0; i < nums.size(); i++) {
+		for (int n: nums) { // for-each循环的优势
 			if (count == 0) {
-				res = nums.get(i);
+				res = n;
 				count = 1;
 			} else {
-				if (nums.get(i) == res) {
+				if (n == res) {
 					count++;
 				} else {
 					count--;
 				}
 			}
 		}
+		
 		return res;
     }
 	
