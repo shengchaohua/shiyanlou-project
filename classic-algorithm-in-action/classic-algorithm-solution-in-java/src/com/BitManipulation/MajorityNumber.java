@@ -11,7 +11,7 @@ public class MajorityNumber {
 		for (int i = 0; i < nums.length; i++) {
 			if (count == 0) {
 				res = nums[i];
-				count++;
+				count = 1;
 			} else {
 				if (nums[i] == res) {
 					count++;
