@@ -1,5 +1,6 @@
 package com.BitManipulation;
 
+// problem: lintcode 1. A + B Problem
 public class APlusB {
 	/*
      * @param a: An integer
