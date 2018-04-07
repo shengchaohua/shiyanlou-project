@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: lintcode 366. Fibonacci 
 public class Fibonacci {

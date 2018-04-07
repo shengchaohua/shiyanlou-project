@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: lintcode 181. Flip Bits
 public class FlipBits {

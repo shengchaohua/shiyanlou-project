@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // lintcode 82. Single Number
 public class SingleNumber {

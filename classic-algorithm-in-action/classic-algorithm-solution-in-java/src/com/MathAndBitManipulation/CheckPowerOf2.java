@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: lintcode 142. O(1) Check Power of 2
 public class CheckPowerOf2 {

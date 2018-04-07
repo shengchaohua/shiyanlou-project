@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: leetcode 172. & lintcode 2. Factorial Trailing Zeroes
 public class FactorialTrailingZeroes {

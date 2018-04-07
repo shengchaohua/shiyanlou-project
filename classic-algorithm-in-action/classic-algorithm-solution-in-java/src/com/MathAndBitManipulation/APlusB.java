@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: lintcode 1. A + B Problem
 public class APlusB {

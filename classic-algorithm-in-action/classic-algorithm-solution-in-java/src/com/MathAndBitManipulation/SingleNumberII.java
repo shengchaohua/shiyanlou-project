@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: leetcode 137. & lintcode 83. Single Number
 public class SingleNumberII {

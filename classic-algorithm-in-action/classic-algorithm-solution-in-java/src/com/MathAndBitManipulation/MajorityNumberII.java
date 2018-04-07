@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 import java.util.ArrayList;
 import java.util.HashMap;

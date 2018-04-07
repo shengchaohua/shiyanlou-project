@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package com.MathAndBitManipulation;
 
 // problem: lintcode 365. Count 1 in Binary
 public class Count1InBinary {
