@@ -26,6 +26,6 @@ class Solution:
 
         if forward == 1:
             digits.insert(0, 1);
-            return digits;
+            return digits
 
         return digits
