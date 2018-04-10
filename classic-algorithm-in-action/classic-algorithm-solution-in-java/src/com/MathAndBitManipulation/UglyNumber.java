@@ -1,6 +1,6 @@
 package com.MathAndBitManipulation;
 
-// problem: leetcode 263. Ugly Number
+// problem: leetcode 263. & lintcode 517. Ugly Number
 public class UglyNumber {
 	public boolean isUgly(int num) {
 		// AC
