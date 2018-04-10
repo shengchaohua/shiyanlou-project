@@ -25,6 +25,7 @@ class Solution:
                 break
 
         if forward == 1:
-            return [1] + [0] * length
+            digits.insert(0, 1);
+            return digits;
 
         return digits
